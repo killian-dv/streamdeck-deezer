@@ -1,0 +1,50 @@
+{
+    "Actions": [
+        {
+            "Icon": "images/playpause_action",
+            "Name": "Play / Pause",
+            "States": [
+                {
+                "Image": "images/paused_key",
+                "Name": "Paused",
+                "TitleColor": "#ffffff",
+                "FontFamily": "Arial",
+                "FontStyle": "Bold",
+                "FontSize": "10"
+                },
+                {
+                "Image": "images/playing_key",
+                "Name": "Playing",
+                "TitleColor": "#ffffff",
+                "FontFamily": "Arial",
+                "FontStyle": "Bold",
+                "FontSize": "10"
+                }
+            ],
+            "Tooltip": "Play and pause de l'audio et affichage des informations de lecture.",
+            "UUID": "com.killian-dv.deezer.playpause"
+            }
+    ],
+    "Author": "killian-dv",
+    "Description": "Intégration de Deezer et retour d'information en direct. Contrôlez Deezer et obtenez des commentaires en direct sur votre Stream Deck. Un compte Deezer Premium est nécessaire.",
+    "Name": "Deezer Integration",
+    "Icon": "Images/plugin_icon",
+    "URL": "https://github.com/killian-dv/streamdeck-deezer",
+    "Version": "1.0",
+    "DefaultWindowSize": [620, 750],
+    "CodePath": "plugin/index.html",
+    "PropertyInspectorPath": "propertyinspector/index.html",
+    "Category": "Deezer",
+    "CategoryIcon": "images/plugin_category",
+    "OS": [
+      {
+        "Platform": "windows",
+        "MinimumVersion": "10"
+      }
+    ],
+    "SDKVersion": 2,
+    "Software": {
+      "MinimumVersion": "5.0"
+    }
+  }
+  
