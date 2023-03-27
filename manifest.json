@@ -1,29 +1,109 @@
 {
     "Actions": [
         {
-            "Icon": "images/playpause_action",
-            "Name": "Play / Pause",
-            "States": [
-                {
-                "Image": "images/paused_key",
-                "Name": "Paused",
+          "Icon": "images/play-pause",
+          "Name": "Play / Pause",
+          "States": [
+              {
+              "Image": "images/btn_deezer_pause",
+              "Name": "Paused",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              },
+              {
+              "Image": "images/btn_deezer_play",
+              "Name": "Playing",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              }
+          ],
+          "Tooltip": "Play and pause de l'audio",
+          "UUID": "com.killian-dv.deezer.playpause"
+        },
+        {
+          "Icon": "images/next",
+          "Name": "Next",
+          "States": [
+              {
+              "Image": "images/btn_deezer_next",
+              "Name": "Next",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              }
+          ],
+          "Tooltip": "Passe à la piste suivante.",
+          "UUID": "com.killian-dv.deezer.next"
+        },
+        {
+          "Icon": "images/previous",
+          "Name": "Previous",
+          "States": [
+              {
+              "Image": "images/btn_deezer_previous",
+              "Name": "Previous",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              }
+          ],
+          "Tooltip": "Passe à la piste précédente.",
+          "UUID": "com.killian-dv.deezer.previous"
+        },
+        {
+          "Icon": "images/like",
+          "Name": "Like",
+          "States": [
+              {
+              "Image": "images/btn_deezer_like",
+              "Name": "Like",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              },
+              {
+                "Image": "images/btn_deezer_unlike",
+                "Name": "Unlike",
                 "TitleColor": "#ffffff",
                 "FontFamily": "Arial",
                 "FontStyle": "Bold",
                 "FontSize": "10"
-                },
-                {
-                "Image": "images/playing_key",
-                "Name": "Playing",
+              }
+          ],
+          "Tooltip": "Ajoute la piste à vos favoris.",
+          "UUID": "com.killian-dv.deezer.like"
+        },
+        {
+          "Icon": "images/repeat",
+          "Name": "Repeat",
+          "States": [
+              {
+              "Image": "images/btn_deezer_reapeat",
+              "Name": "Repeat",
+              "TitleColor": "#ffffff",
+              "FontFamily": "Arial",
+              "FontStyle": "Bold",
+              "FontSize": "10"
+              },    
+              {
+                "Image": "images/btn_deezer_reapeat_off",
+                "Name": "Repeat Off",
                 "TitleColor": "#ffffff",
                 "FontFamily": "Arial",
                 "FontStyle": "Bold",
                 "FontSize": "10"
-                }
-            ],
-            "Tooltip": "Play and pause de l'audio et affichage des informations de lecture.",
-            "UUID": "com.killian-dv.deezer.playpause"
-            }
+              }
+          ],
+          "Tooltip": "Active ou désactive la répétition de la piste.",
+          "UUID": "com.killian-dv.deezer.repeat"
+        }
     ],
     "Author": "killian-dv",
     "Description": "Intégration de Deezer et retour d'information en direct. Contrôlez Deezer et obtenez des commentaires en direct sur votre Stream Deck. Un compte Deezer Premium est nécessaire.",
